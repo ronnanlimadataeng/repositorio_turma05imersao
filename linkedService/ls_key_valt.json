@@ -1,0 +1,10 @@
+{
+	"name": "ls_key_valt",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-turma05imersao-prod01.vault.azure.net/"
+		}
+	}
+}
