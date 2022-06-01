@@ -1,0 +1,9 @@
+{
+	"name": "adf-turma05imersao-prod-ronnan",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b03c3120-bf38-4655-8f33-4220c2f33d25",
+		"tenantId": "659ce2b8-0714-4198-8c38-dc9b60aabb57"
+	}
+}
