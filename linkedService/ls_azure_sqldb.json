@@ -1,0 +1,16 @@
+{
+	"name": "ls_azure_sqldb",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sql-server-turma05imersao-prod-ronnan.database.windows.net;initial catalog=sqldb-turma05imersao-prod-ronnan;user id=turma05",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjODMwNmE3YS0xZDljLTQ4NmQtODhjNC1lMTcxYzU3M2Y5NDMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ir-selfhosted-turma05imersao",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
